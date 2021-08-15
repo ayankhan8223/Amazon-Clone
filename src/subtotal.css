@@ -1,0 +1,43 @@
+.subtotal {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+  padding: 20px;
+  width: 420px;
+  border-radius: 5px;
+}
+.free__delivery {
+  color: #008500;
+  display: flex;
+  font-size: 14px;
+  margin-top: 9px;
+  margin-bottom: 10px;
+}
+
+.subtotal__items {
+  font-size: 18px;
+  line-height: 24px;
+  padding: 5px;
+}
+.subtotal > button {
+  border-radius: 0.8rem;
+  box-shadow: 0 0.2rem 0.5rem 0 rgb(213 217 217);
+  width: 100% !important;
+  background: #ffd814;
+  border-color: #fcd200;
+  border-style: solid;
+  border-width: 0.1rem;
+  cursor: pointer;
+  display: block;
+
+  text-align: center;
+  text-decoration: none !important;
+  font-size: 13px;
+  line-height: 29px;
+  margin-top: 18px;
+}
+.subtotal__gift {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}

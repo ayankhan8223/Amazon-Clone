@@ -1,0 +1,24 @@
+.home {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
+}
+.home__row {
+  display: flex;
+
+  z-index: 1;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.home__img {
+  width: 100%;
+  z-index: -1;
+  margin-bottom: -330px;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+/* margin-bottom: -330px; ye value yadd rakhna 
+or home__row flex wrap lagna in mobile responsive bnanane me*/

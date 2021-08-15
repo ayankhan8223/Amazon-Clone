@@ -1,0 +1,113 @@
+.payment__container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.payment__section2 {
+  display: flex;
+  margin-left: 27px;
+  align-items: center;
+}
+.payment__section2 > img {
+  height: 180px;
+  width: 180px;
+  object-fit: contain;
+}
+.payment__orderinfo {
+  padding: 20px;
+}
+
+.payment {
+  background-color: white;
+
+  padding: 0 100px;
+}
+.payment > img {
+  max-width: 100%;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.payment__section {
+  border-bottom: 1px solid lightgray;
+  width: 100%;
+}
+.payment__title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-right: 80px;
+}
+.remove__button {
+  width: 220px;
+  border-radius: 0.8rem;
+  box-shadow: 0 0.2rem 0.5rem 0 rgb(213 217 217);
+
+  background: #ffd814;
+  border-color: #fcd200;
+  border-style: solid;
+  border-width: 0.1rem;
+  cursor: pointer;
+
+  padding: 0 10px 0 11px;
+  text-align: center;
+  text-decoration: none !important;
+  font-size: 13px;
+  line-height: 29px;
+  margin-left: 160px;
+}
+.delivery__title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-right: 120px;
+}
+.payment__section1 {
+  display: flex;
+  padding: 30px;
+}
+.payment__section_2 {
+  display: flex;
+
+  align-items: center;
+
+  flex-direction: row;
+}
+.payment__title {
+  padding: 25px;
+}
+.payment__section3 {
+  padding: 25px;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+}
+.paymentmethod__title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  margin-right: 160px;
+}
+.payment__button {
+  border-radius: 0.8rem;
+  box-shadow: 0 0.2rem 0.5rem 0 rgb(213 217 217);
+  width: 100% !important;
+  background: #ffd814;
+  border-color: #fcd200;
+  border-style: solid;
+  border-width: 0.1rem;
+  cursor: pointer;
+  display: block;
+  padding: 0 10px 0 11px;
+  text-align: center;
+  text-decoration: none !important;
+  font-size: 13px;
+  line-height: 29px;
+  color: black;
+}
+.payment__details {
+  width: 100%;
+}
+.payment__section3 {
+  display: flex;
+  justify-content: space-between;
+}
